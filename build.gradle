@@ -21,6 +21,8 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation 'org.eclipse.mylyn.github:org.eclipse.egit.github.core:2.1.5'
+	implementation 'com.currencyfair:onesignal:1.0.15'
 	compileOnly "org.mapstruct:mapstruct:$mapStructVersion"
     annotationProcessor "org.mapstruct:mapstruct-processor:$mapStructVersion"
 	compileOnly 'org.projectlombok:lombok'
