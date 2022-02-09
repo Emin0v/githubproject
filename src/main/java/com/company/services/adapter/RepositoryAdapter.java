@@ -12,8 +12,13 @@ public interface RepositoryAdapter {
 
     Repository map(CreateRepositoryRequest request);
 
+    Repository map(RepositoryResource resource);
+
     RepositoryResource map(Repository repository);
 
     List<RepositoryResource> map(List<Repository> repository);
+
+    List<Repository> mapToRepository(List<RepositoryResource> repository);
+
 
 }
